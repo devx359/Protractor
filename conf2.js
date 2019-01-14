@@ -10,6 +10,7 @@ exports.config = {
         // smoke: ['test/UI/smoke/spec1.js'],
        // flashy: ['test/UI/smoke/propertyfiledemo.js']
        flashy: ['test/UI/smoke/new.js']
+       
     },
     capabilities: {
         browserName: 'chrome'
