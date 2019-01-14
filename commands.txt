@@ -1,0 +1,14 @@
+#run this to create node_modules folder in vscode 
+npm install protractor
+#installs intellisense for jasmine
+npm i @types/jasmine
+#jasmine reporter
+npm install --save-dev jasmine-reporters@^2.0.0	
+#jasmine html reporter
+npm install protractor-jasmine2-html-reporter --save-dev
+#know the path of your installed nodemodules
+npm link protractor-jasmine2-html-reporter
+#Run only specific test suites
+protractor conf.js --suite smoke
+#property file reader
+npm install properties-reader
