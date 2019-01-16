@@ -12,3 +12,8 @@ npm link protractor-jasmine2-html-reporter
 protractor conf.js --suite smoke
 #property file reader
 npm install properties-reader
+
+
+#########ISSUES########################
+#if you face webdriver update-config.json missing issue  run
+./node_modules/protractor/bin/webdriver-manager update

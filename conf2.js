@@ -8,9 +8,10 @@ exports.config = {
     suites: {
         // regression: ['test/UI/regression/spec2.js','test/UI/regression/spec1.js'],
         // smoke: ['test/UI/smoke/spec1.js'],
-       // flashy: ['test/UI/smoke/propertyfiledemo.js']
-       flashy: ['test/UI/smoke/new.js']
-       
+        //flashy: ['test/UI/smoke/propertyfiledemo.js']
+      // flashy: ['test/UI/smoke/new.js']
+      flashy: ['test/UI/smoke/demo.js']
+
     },
     capabilities: {
         browserName: 'chrome'

@@ -8,6 +8,7 @@ describe('my flashy page Objects test', function () {
         supercal.setFirstNumber(10);
         supercal.setSecondNumber(20);
         supercal.clickGoButton();
+        
    
     });
 });

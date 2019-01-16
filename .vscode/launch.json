@@ -5,16 +5,14 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "type": "node",
-            "request": "attach",
-            "name": "Attach",
-            "port": 9229
-        },
-        {
+            "name": "Launch e2e Tests",
             "type": "node",
             "request": "launch",
-            "name": "Launch Program",
-            "program": "${workspaceFolder}/spec2.js"
+            "program": "${workspaceRoot}/node_modules/protractor/bin/protractor",
+            "stopOnEntry": false,
+            "args": ["${workspaceRoot}/conf2.js", "--suite", "flashy"],
+            "cwd":"${workspaceRoot}",        
+            "preLaunchTask": null           
         }
     ]
 }

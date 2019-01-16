@@ -15,12 +15,11 @@ class PathReader {
 
         var xpath=this.getLocator(propertyKey);
         var path=xpath.split(":");
-        console.log(typeof path);
+
         var locatorType=path[0];
         var locatorValue=path[1];
         console.log("locatorType:"+locatorType+" ::locatorValue: "+locatorValue);
-
-        
+    
 			switch (locatorType) {
             case "model":
                 ByElement = By.model(locatorValue);

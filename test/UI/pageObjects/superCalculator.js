@@ -1,9 +1,10 @@
 // import { browser } from "protractor";
 var pathR = require('../../utilities/PathReader.js');
-
-class CalculatorPage {
+this.pathrd = new pathR();
+class superCalculator {
+    
     constructor() {
-        this.pathrd = new pathR();
+        
         this.firstNumber = element(pathrd.getByElement('firstInput'));
         this.secondNumber = element(pathrd.getByElement('secondNumber'));
         this.goButton = element(pathrd.getByElement('gobutton'));
@@ -26,4 +27,4 @@ class CalculatorPage {
 }
 
 
-module.exports = CalculatorPage;
+module.exports = superCalculator;
