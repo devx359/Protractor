@@ -5,6 +5,7 @@ constructor(sheetName){
     this.workbook = XLSX.readFile(sheetName+'.xlsx');
     this.sheet_name_list = this.workbook.SheetNames;
     this.worksheet=this.workbook.Sheets[this.sheet_name_list[0]];
+    
 
 }
 

@@ -1,3 +1,5 @@
+#create the package.json file
+npm init
 #run this to create node_modules folder in vscode 
 npm install protractor
 #installs intellisense for jasmine

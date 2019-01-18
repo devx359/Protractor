@@ -1,0 +1,30 @@
+{
+  "name": "protdemo",
+  "version": "1.0.0",
+  "description": "Protractor Framework",
+  "main": "conf2.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "jasmine-spec-reporter": "^4.2.1",
+    "properties-reader": "^0.0.16",
+    "protractor-jasmine2-html-reporter": "^0.0.7",
+    "protractor": "^5.4.2",
+    "xlsx": "^0.14.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "protractor conf2.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devx359/Protractor.git"
+  },
+  "author": "Debapriyo Haldar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/devx359/Protractor/issues"
+  },
+  "homepage": "https://github.com/devx359/Protractor#readme"
+}
