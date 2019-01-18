@@ -7,6 +7,7 @@ class PathReader {
 
     getLocator(propertyFileKey){
         var xpath=this.properties.get(propertyFileKey);
+        
         return xpath;
     }
 
@@ -14,15 +15,17 @@ class PathReader {
         let ByElement;
 
         var xpath=this.getLocator(propertyKey);
+       // console.log("xpath "+xpath);
         var path=xpath.split(":");
 
         var locatorType=path[0];
         var locatorValue=path[1];
-        console.log("locatorType:"+locatorType+" ::locatorValue: "+locatorValue);
+       // console.log("locatorType:"+locatorType+" ::locatorValue: "+locatorValue);
     
 			switch (locatorType) {
             case "model":
                 ByElement = By.model(locatorValue);
+               // console.log(typeof ByElement);
                 break;
             case "binding":
                 ByElement = By.binding(locatorValue);
@@ -31,7 +34,8 @@ class PathReader {
                 ByElement = By.repeater(locatorValue);
                 break;     
 			case "id":
-				ByElement = By.id(locatorValue);
+                ByElement = By.id(locatorValue);
+             //   console.log(typeof ByElement);
 				break;
 			case "xpath":
 				ByElement = By.xpath(locatorValue);

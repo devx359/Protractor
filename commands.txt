@@ -12,6 +12,10 @@ npm link protractor-jasmine2-html-reporter
 protractor conf.js --suite smoke
 #property file reader
 npm install properties-reader
+#jasmine spec reporter
+npm install jasmine-spec-reporter --save-dev
+#excel reader
+npm install xlsx
 
 
 #########ISSUES########################

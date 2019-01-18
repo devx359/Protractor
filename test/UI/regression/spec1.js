@@ -19,6 +19,7 @@ describe('Protractor Demo App test 2', function() {
 
    it ('page should have a title',function(){
     browser.get('http://juliemr.github.io/protractor-demo/');
+ 
     
     expect(browser.getTitle()).toEqual('Super Calculator');
    });
