@@ -21,8 +21,12 @@ npm install xlsx
 #install allure
 npm install allure-commandline --save-dev
 npm install jasmine-allure-reporter 
+#allure commandline
+npm i allure-commandline
 
 
 #########ISSUES########################
 #if you face webdriver update-config.json missing issue  run
 ./node_modules/protractor/bin/webdriver-manager update
+#update_config.json issue
+./node_modules/protractor/node_modules/webdriver-manager/bin/webdriver-manager update

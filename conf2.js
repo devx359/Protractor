@@ -1,5 +1,6 @@
 let SpecReporter = require('jasmine-spec-reporter').SpecReporter;
 var AllureReporter = require('jasmine-allure-reporter');
+var allure = require('allure-commandline');
 
 exports.config = {
     //no need to start web driver server if directConnect=true
@@ -29,17 +30,26 @@ exports.config = {
 
         
         jasmine.getEnv().addReporter(new AllureReporter({
-            resultsDir: 'reports'
+            resultsDir: 'allure-report'
         }));
 
-        jasmine.getEnv().afterEach(function(done){
-          browser.takeScreenshot().then(function (png) {
-            allure.createAttachment('Screenshot', function () {
-              return new Buffer(png, 'base64')
-            }, 'image/png')();
-            done();
-          })
-        });
+        // jasmine.getEnv().afterEach(function(done){
+        //   browser.takeScreenshot().then(function (png) {
+        //     allure.createAttachment('Screenshot', function () {
+        //       return new Buffer(png, 'base64')
+        //     }, 'image/png')();
+        //     done();
+        //   })
+        // });
 
-    }
+    },
+    //onComplete?: () =>
+    // onComplete: function(){
+    //     var generation = allure(['generate', 'reports']);
+    //     generation.on('exit', function(exitCode) {
+    //         console.log('Generation is finished with code:', exitCode);
+    //     });
+    // }
+
+    
 };

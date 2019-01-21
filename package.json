@@ -18,9 +18,9 @@
     "jasmine-allure-reporter": "^1.0.2"
   },
   "scripts": {
-   
-    "test": "protractor conf2.js"
-   
+    "pretest": "rm -rf reports",
+    "test": "protractor conf2.js",
+    "posttest": "allure generate reports --clean -o allure-report || true"
   },
   "repository": {
     "type": "git",
