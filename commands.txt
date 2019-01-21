@@ -18,6 +18,9 @@ npm install properties-reader
 npm install jasmine-spec-reporter --save-dev
 #excel reader
 npm install xlsx
+#install allure
+npm install allure-commandline --save-dev
+npm install jasmine-allure-reporter 
 
 
 #########ISSUES########################

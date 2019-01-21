@@ -9,13 +9,18 @@
   "dependencies": {
     "jasmine-spec-reporter": "^4.2.1",
     "properties-reader": "^0.0.16",
-    "protractor-jasmine2-html-reporter": "^0.0.7",
     "protractor": "^5.4.2",
+    "protractor-jasmine2-html-reporter": "^0.0.7",
     "xlsx": "^0.14.1"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "allure-commandline": "^2.8.1",
+    "jasmine-allure-reporter": "^1.0.2"
+  },
   "scripts": {
+   
     "test": "protractor conf2.js"
+   
   },
   "repository": {
     "type": "git",

@@ -1,4 +1,4 @@
-import { browser } from "protractor";
+//import { browser } from "protractor";
 
 
 describe('Protractor Demo App test 2', function() {
