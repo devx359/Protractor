@@ -1,0 +1,45 @@
+{
+  "uid" : "cb9501dba4a0f8e3",
+  "name" : "page should have a title",
+  "fullName" : "Protractor Demo App test 2.page should have a title",
+  "historyId" : "7da4fbac6cde95cff544f667fdf00070",
+  "time" : {
+    "start" : 1548078114631,
+    "stop" : 1548078116506,
+    "duration" : 1875
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Protractor Demo App test 2"
+  }, {
+    "name" : "testClass",
+    "value" : "Protractor Demo App test 2"
+  }, {
+    "name" : "testMethod",
+    "value" : "page should have a title"
+  }, {
+    "name" : "package",
+    "value" : "Protractor Demo App test 2"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "cb9501dba4a0f8e3.json",
+  "parameterValues" : [ ]
+}

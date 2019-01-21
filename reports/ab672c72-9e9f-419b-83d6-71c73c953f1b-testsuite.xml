@@ -1,0 +1,31 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1548078114630' stop='1548078122738'>
+    <name>Protractor Demo App test 2</name>
+    <title>Protractor Demo App test 2</title>
+    <test-cases>
+        <test-case start='1548078114631' status='passed' stop='1548078116506'>
+            <name>page should have a title</name>
+            <title>page should have a title</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1548078116506' status='passed' stop='1548078118627'>
+            <name>should add one and two</name>
+            <title>should add one and two</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1548078118627' status='passed' stop='1548078122737'>
+            <name>should count rows of result</name>
+            <title>should count rows of result</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

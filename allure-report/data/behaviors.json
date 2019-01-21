@@ -1,5 +1,41 @@
 {
   "uid" : "b1a8273437954620fa374b796ffaacdd",
   "name" : "behaviors",
-  "children" : [ ]
+  "children" : [ {
+    "name" : "page should have a title",
+    "uid" : "cb9501dba4a0f8e3",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1548078114631,
+      "stop" : 1548078116506,
+      "duration" : 1875
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "should add one and two",
+    "uid" : "7599b5a20390d11f",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1548078116506,
+      "stop" : 1548078118627,
+      "duration" : 2121
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "should count rows of result",
+    "uid" : "c40c85b1bf865632",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1548078118627,
+      "stop" : 1548078122737,
+      "duration" : 4110
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  } ]
 }

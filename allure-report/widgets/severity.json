@@ -1,1 +1,31 @@
-[ ]
+[ {
+  "uid" : "cb9501dba4a0f8e3",
+  "name" : "page should have a title",
+  "time" : {
+    "start" : 1548078114631,
+    "stop" : 1548078116506,
+    "duration" : 1875
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c40c85b1bf865632",
+  "name" : "should count rows of result",
+  "time" : {
+    "start" : 1548078118627,
+    "stop" : 1548078122737,
+    "duration" : 4110
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7599b5a20390d11f",
+  "name" : "should add one and two",
+  "time" : {
+    "start" : 1548078116506,
+    "stop" : 1548078118627,
+    "duration" : 2121
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

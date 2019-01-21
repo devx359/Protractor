@@ -30,7 +30,7 @@ exports.config = {
 
         
         jasmine.getEnv().addReporter(new AllureReporter({
-            resultsDir: 'allure-report'
+            resultsDir: 'reports'
         }));
 
         // jasmine.getEnv().afterEach(function(done){

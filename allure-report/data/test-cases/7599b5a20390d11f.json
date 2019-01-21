@@ -1,0 +1,45 @@
+{
+  "uid" : "7599b5a20390d11f",
+  "name" : "should add one and two",
+  "fullName" : "Protractor Demo App test 2.should add one and two",
+  "historyId" : "e65efa6ec7c239dd544e3dfde0da34c5",
+  "time" : {
+    "start" : 1548078116506,
+    "stop" : 1548078118627,
+    "duration" : 2121
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Protractor Demo App test 2"
+  }, {
+    "name" : "testClass",
+    "value" : "Protractor Demo App test 2"
+  }, {
+    "name" : "testMethod",
+    "value" : "should add one and two"
+  }, {
+    "name" : "package",
+    "value" : "Protractor Demo App test 2"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7599b5a20390d11f.json",
+  "parameterValues" : [ ]
+}

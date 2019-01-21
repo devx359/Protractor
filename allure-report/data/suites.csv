@@ -1,0 +1,4 @@
+"Status","Name","Duration in ms","Description"
+"passed","Protractor Demo App test 2.page should have a title","1875",""
+"passed","Protractor Demo App test 2.should add one and two","2121",""
+"passed","Protractor Demo App test 2.should count rows of result","4110",""
